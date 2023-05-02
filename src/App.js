@@ -9,7 +9,7 @@ function App() {
       <h1>Graphql Apollo react</h1>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<Details />} />
+        <Route path="/:code" element={<Details />} />
       </Routes>
     </div>
   );
